@@ -1,0 +1,22 @@
+---
+title: 'Analysis of LGBT data'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The data can be found here:
+https://www.kaggle.com/ruslankl/european-union-lgbt-survey-2012/download
+
+Put the zipped file in your repo and unzip it using:
+
+```{r, eval=FALSE}
+unzip("european-union-lgbt-survey-2012.zip", exdir = "./data")
+```
+
+The files we have are:
+```{r}
+list.files(path = "./data")
+```
